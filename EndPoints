@@ -1,0 +1,36 @@
+Account info by address<--Get-->
+ https://api.trongrid.io/v1/accounts/address
+ 
+ Transaction information by account address<--Get-->
+ https://api.trongrid.io/v1/accounts/address/transactions
+ 
+ Asset List trc10<--Get-->
+ https://api.trongrid.io/v1/assets
+ 
+ Asset by name<-->Get<-->
+ https://api.trongrid.io/v1/assets/name/list
+ 
+ Asset by idendifier<--Get-->
+ https://api.trongrid.io/v1/assets/identifier
+ identifier==string id of the asset or the owner address of the asset in base58 or hex
+ 
+ Events by transaction ID<--Get-->
+ https://api.trongrid.io/v1/transactions/transactionID/events
+ 
+ Events by contract address<--Get-->
+ https://api.trongrid.io/v1/contracts/address/events
+ 
+ Transaction information by contract address<--Get-->
+ https://api.trongrid.io/v1/contracts/contractAddress/transactions
+ 
+ TRC20 token account balance info<--Get-->
+ https://api.trongrid.io/v1/contracts/contractAddress/tokens
+ 
+Create an account. Uses an already activated account to create a new account
+https://api.trongrid.io/wallet/createaccount
+
+visible boolean
+Optional,whether the address is in base58 format
+Trx Transfers<--Get-->
+https://api.trongrid.io/wallet/easytransfer
+
